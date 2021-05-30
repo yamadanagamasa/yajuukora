@@ -217,7 +217,7 @@
           echo "<br>";
           echo "<img src= ${file}>";
           echo "<br>";
-          echo "<a href=${file} download>画像をダウンロード</a>"
+          echo "<a href=${file} download>画像をダウンロード</a>";
         }
         
       ?>
