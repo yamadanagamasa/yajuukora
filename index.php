@@ -190,7 +190,7 @@
               move_uploaded_file($_FILES['image']['tmp_name'], 'images/' . $image);//imagesディレクトリにファイル保存
               if (exif_imagetype($file)) {//画像ファイルかのチェック
                 //$command="python main.py ";サーバー用
-                $command="python3 main.py";
+                $command="python main.py";
                 $message = '画像を判定しました';
                 exec($command);
               } else {
