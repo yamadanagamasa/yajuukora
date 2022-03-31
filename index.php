@@ -191,7 +191,7 @@
               if (exif_imagetype($file)) {//画像ファイルかのチェック
                 //$command="python main.py ";サーバー用
                 $command="python main.py";
-                $message = '画像を判定しました';
+                $message = '画像を判定しました<br>もし表示されていなかったら画像から顔が検出できなかったということなので、他の写真をお試しください';
                 exec($command);
               } else {
                   $message = '画像ファイルではありません';
