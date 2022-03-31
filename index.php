@@ -191,7 +191,7 @@
               if (exif_imagetype($file)) {//画像ファイルかのチェック
                 //$command="python main.py ";サーバー用
                 $command="python main.py";
-                $message = '画像を判定しました<br>もし表示されていなかったら画像から顔が検出できなかったということなので、他の写真をお試しください';
+                $message = "<h1 class ='title'>画像を判定しました</h1><br>もし表示されていなかったら画像から顔が検出できなかったということなので、他の写真をお試しください";
                 exec($command);
               } else {
                   $message = '画像ファイルではありません';
@@ -209,7 +209,7 @@
   ?>
   <!--送信ボタンが押された場合-->
   <?php if (isset($_POST['upload'])): ?>
-    <h1 class ="title"><?php echo $message; ?></h1>
+    <?php echo $message; ?>
       <?php
         //$count = 0;
         $files = glob("outputimages/*");
