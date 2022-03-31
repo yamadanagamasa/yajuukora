@@ -18,7 +18,7 @@ def face_cascade(img_path, save_cascade_image_dir, name):
         y = i[1]
         w = i[2]
         h = i[3]
-        imgmain = cv2.imread('AF6686D6-7928-48B6-898A-EDA82DD8472A.jpeg')
+        imgmain = cv2.imread('EBiW9LqUwAAxuoJ.jpg')
         img2 = cv2.resize(imgmain ,(int(w),int(h)))
         new_image = img2.copy()
         if new_image.ndim == 2:  # モノクロ
