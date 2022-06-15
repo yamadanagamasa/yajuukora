@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>ぬぬの野獣コラ</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280679533083204"
+     crossorigin="anonymous"></script>
 <style>
     body {
       background-color: #eeeeee;
@@ -222,8 +225,6 @@
         
       ?>
   <?php else: ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280679533083204"
-     crossorigin="anonymous"></script>
       <form method="post" enctype="multipart/form-data">
           <h1 class = "subtitle">アニメ画像の顔を野獣先輩にします</h1>
           <h1　class="title">画像をアップロード</h1>
