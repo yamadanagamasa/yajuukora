@@ -1,4 +1,2 @@
 # yajuukora
-# yajuukora
-# yajuukora
-# mojiokosi
+ opencvを用いて、野獣コラを自動生成します。
